@@ -8,6 +8,6 @@ public class GitLabHelper {
     }
 
     public void PrintWelcomeMessage() {
-        System.out.print("This is a lesson on git made by " + person1 + " and " + person2);
+        System.out.printf("This is a lesson on git made by %s and %s", person1, person2);
     }
 }
